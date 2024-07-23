@@ -404,7 +404,7 @@ extension SwiftWorkmanagerPlugin: FlutterPlugin {
                 withIdentifier: uniqueTaskIdentifier,
                 earliestBeginInSeconds: delaySeconds,
                 requiresNetworkConnectivity: requiresNetwork,
-                requiresExternalPower: requiresCharging),
+                requiresExternalPower: requiresCharging)
 
             result(true)
             return
